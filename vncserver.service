@@ -1,0 +1,15 @@
+[Unit]
+Description=Start VNC server at boot
+After=network.target
+
+[Service]
+Type=forking
+User=outthawazoo
+Group=outthawazoo
+WorkingDirectory=/home/outthawazoo
+ExecStart=/usr/bin/vncserver :1 -geometry 1920x1080 -depth 24 -fp /usr/share/fonts/X11/misc/
+ExecStop=/usr/bin/vncserver -kill :1
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

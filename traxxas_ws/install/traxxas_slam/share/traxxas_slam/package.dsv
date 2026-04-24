@@ -1,0 +1,9 @@
+source;share/traxxas_slam/hook/pythonpath.ps1
+source;share/traxxas_slam/hook/pythonpath.dsv
+source;share/traxxas_slam/hook/pythonpath.sh
+source;share/traxxas_slam/hook/ament_prefix_path.ps1
+source;share/traxxas_slam/hook/ament_prefix_path.dsv
+source;share/traxxas_slam/hook/ament_prefix_path.sh
+source;../../build/traxxas_slam/share/traxxas_slam/hook/pythonpath_develop.ps1
+source;../../build/traxxas_slam/share/traxxas_slam/hook/pythonpath_develop.dsv
+source;../../build/traxxas_slam/share/traxxas_slam/hook/pythonpath_develop.sh

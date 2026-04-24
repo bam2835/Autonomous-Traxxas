@@ -1,0 +1,22 @@
+[Unit]
+Description=RC Car Controller
+After=graphical.target
+
+[Service]
+Type=simple
+User=outthawazoo
+WorkingDirectory=/home/outthawazoo
+
+ExecStart=/bin/bash -lc 'source /opt/ros/humble/setup.bash && /usr/bin/python3 /home/outthawazoo/servotest.py'
+
+Restart=always
+RestartSec=5
+
+StandardOutput=journal
+StandardError=journal
+
+Environment=SDL_VIDEODRIVER=dummy
+Environment=SDL_AUDIODRIVER=dummy
+
+[Install]
+WantedBy=graphical.target

@@ -1,0 +1,16 @@
+[1.391s] Invoking command in '/home/outthawazoo/traxxas_ws/build/traxxas_slam': PYTHONPATH=/home/outthawazoo/traxxas_ws/build/traxxas_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/outthawazoo/traxxas_ws/install/traxxas_slam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/outthawazoo/traxxas_ws/build/traxxas_slam/build --no-deps symlink_data
+[2.003s] running develop
+[2.388s] running egg_info
+[2.388s] writing traxxas_slam.egg-info/PKG-INFO
+[2.389s] writing dependency_links to traxxas_slam.egg-info/dependency_links.txt
+[2.389s] writing entry points to traxxas_slam.egg-info/entry_points.txt
+[2.389s] writing requirements to traxxas_slam.egg-info/requires.txt
+[2.390s] writing top-level names to traxxas_slam.egg-info/top_level.txt
+[2.395s] reading manifest file 'traxxas_slam.egg-info/SOURCES.txt'
+[2.396s] writing manifest file 'traxxas_slam.egg-info/SOURCES.txt'
+[2.401s] running build_ext
+[2.401s] Creating /home/outthawazoo/traxxas_ws/install/traxxas_slam/lib/python3.10/site-packages/traxxas-slam.egg-link (link to .)
+[2.403s] 
+[2.404s] Installed /home/outthawazoo/traxxas_ws/build/traxxas_slam
+[2.404s] running symlink_data
+[2.513s] Invoked command in '/home/outthawazoo/traxxas_ws/build/traxxas_slam' returned '0': PYTHONPATH=/home/outthawazoo/traxxas_ws/build/traxxas_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/outthawazoo/traxxas_ws/install/traxxas_slam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/outthawazoo/traxxas_ws/build/traxxas_slam/build --no-deps symlink_data

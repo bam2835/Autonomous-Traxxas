@@ -1,0 +1,12 @@
+[Unit]
+Description=Start x11vnc at startup
+After=display-manager.service
+
+[Service]
+Type=simple
+User=outthawazoo
+ExecStart=/usr/bin/x11vnc -auth guess -forever -loop -noxdamage -repeat -rfbauth /home/outthawazoo/.vnc/passwd -rfbport 5900 -shared
+Restart=always
+
+[Install]
+WantedBy=graphical.target
